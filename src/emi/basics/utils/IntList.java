@@ -1,4 +1,3 @@
-
 package emi.basics.utils;
 
 /**
@@ -31,7 +30,7 @@ public class IntList
 	}
 	
 	/**
-	 * I dont see any use for a recursive method as :
+	 * There is no use for a recursive method as :
 	 * - stack use memory and can overflow
 	 * - complexity is the same
 	 * - method is harder to read + debug
@@ -98,6 +97,7 @@ public class IntList
 	
 	/*
 	 * iterations & getter methods
+	 * I should have extracted the iterator, keeping it inside is ugly
 	 */
 	public int get(int i)
 	{
