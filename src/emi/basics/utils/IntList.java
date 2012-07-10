@@ -97,7 +97,7 @@ public class IntList
 	
 	/*
 	 * iterations & getter methods
-	 * I should have extracted the iterator, keeping it inside is ugly
+	 * I should have extracted the iterator => much more clean way of using the list
 	 */
 	public int get(int i)
 	{
